@@ -5,7 +5,11 @@ import { cookies } from 'next/headers';
 
 export async function GET(request: Request) {
   try {
+<<<<<<< HEAD
     const cookieStore = await cookies();
+=======
+    const cookieStore = cookies();
+>>>>>>> 2df9ebff25e016119b2a497f00296378c99d034e
     const token = cookieStore.get('auth_token')?.value;
     
     if (!token) {
@@ -40,7 +44,11 @@ export async function GET(request: Request) {
 
 export async function PUT(request: Request) {
   try {
+<<<<<<< HEAD
     const cookieStore = await cookies();
+=======
+    const cookieStore = cookies();
+>>>>>>> 2df9ebff25e016119b2a497f00296378c99d034e
     const token = cookieStore.get('auth_token')?.value;
     
     if (!token) {

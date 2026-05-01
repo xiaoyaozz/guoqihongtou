@@ -11,7 +11,11 @@ const PACKAGES = {
 
 export async function POST(request: Request) {
   try {
+<<<<<<< HEAD
     const cookieStore = await cookies();
+=======
+    const cookieStore = cookies();
+>>>>>>> 2df9ebff25e016119b2a497f00296378c99d034e
     const token = cookieStore.get('auth_token')?.value;
     
     if (!token) {
