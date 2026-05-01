@@ -17,27 +17,6 @@
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
     "axios": "^1.7.2",
-<<<<<<< HEAD
-    "docx": "^8.5.0",
-    "date-fns": "^3.6.0",
-    "lucide-react": "^0.378.0",
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.3.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.12.11",
-    "@types/react": "^18.3.2",
-    "@types/react-dom": "^18.3.0",
-    "@types/bcryptjs": "^2.4.6",
-    "@types/jsonwebtoken": "^9.0.6",
-    "typescript": "^5.4.5",
-    "tailwindcss": "^3.4.3",
-    "postcss": "^8.4.38",
-    "autoprefixer": "^10.4.19",
-    "wrangler": "^3.53.1",
-    "@cloudflare/workers-types": "^4.20240502.0",
-    "@cloudflare/next-on-pages": "^1.13.7",
-=======
     "docx": "^8.6.0",
     "date-fns": "^3.6.0",
     "lucide-react": "^0.378.0",
@@ -57,7 +36,6 @@
     "wrangler": "^3.114.17",
     "@cloudflare/workers-types": "^4.20260501.1",
     "@cloudflare/next-on-pages": "^1.13.16",
->>>>>>> 2df9ebff25e016119b2a497f00296378c99d034e
     "vercel": "^37.14.0"
   }
 }
